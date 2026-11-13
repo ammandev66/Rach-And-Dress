@@ -1,0 +1,14 @@
+{% for tag in product.tags %}
+    {% if tag.customize %}
+		<div class='td-productcustomization'></div>
+	{% endif %}
+{% endfor %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% if tag=='customize' %}"
+  to: "{% if tag.customize %}"
+  position: 34..56
+{%- endcomment -%}

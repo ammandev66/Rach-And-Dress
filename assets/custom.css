@@ -1,0 +1,91 @@
+#slidecarthq .item .title, #slidecarthq .item .title a, #slidecarthq .upsell-text h3, #slidecarthq .upsell-text h3 a{
+  font-family: Futura,sans-serif !important;
+  text-transform: uppercase !important;
+  letter-spacing: .2em !important;
+  font-size: .9em !important;
+  font-weight: 500 !important;
+  color: #634739 !important;
+}
+html body #slidecarthq .item .properties-key-value li{
+  font-size: 15px !important;
+}
+html body #slidecarthq .announcements p{
+  font-family: Futura,sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 14.45px !important;
+  font-weight: 700 !important;
+}
+.slick-prev:before,
+  .slick-next:before{
+    color: #fff;
+  }
+#slidecarthq .header h2, #slidecarthq .free-gifts-item .free-gifts-item-price .price-free, #slidecarthq .free-gifts-header h2{
+  color: #5f483b !important;
+}
+#slidecarthq .free-gifts-item .free-gifts-item-price .price-free{
+  font-weight: bold;
+}
+
+.jdgm-write-rev-link,.jdgm-btn{ text-transform:uppercase;}
+
+body .shopify-policy__container {
+    max-width: 560px ;
+    max-width: 84ch !important;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 44px !important;
+}
+@media only screen and (min-width: 768px) {
+    body .main-content {
+        min-height: 500px;
+    }
+}
+
+body .faqPlusAppFaq {
+    position: relative;
+    margin-bottom: 12px;
+    background: #634739;
+}
+body .faqPlusAppFaq:hover {
+    background-color: #634739eb !important;
+}
+body .faq-plus-accordian h2, body  .faqCollapseCategory {
+    font-size: 20px;
+    font-weight: bold;
+    color: #634739;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    text-transform: capitalize;
+    text-align: left;
+    font-style: unset;
+    margin-top: 0;
+    margin-bottom: 19px;
+    margin-top: 25px;
+}
+ body  .faqPlusAppContent, body   .faqPlusAppContent span, body  .faqPlusAppContent p {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    color: #512c04;
+    background-color: #ffffff;
+    font-style: unset !important;
+    font-family: inherit !important;
+}
+.grid__item:has(.product__photos){
+      position: sticky;
+    top: 0px;
+}
+@media only screen and (max-width: 767px) {
+  .grid__item:has(.product__photos){
+      position: unset !important;
+    top: 0px;
+}
+   body .btn--small, .collapsibles-wrapper .spr-summary-actions a, .collapsibles-wrapper .spr-button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+/* body .grid__item--sidebar {
+  position: sticky;
+    top: 0px;
+} */
